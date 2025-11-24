@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #1A1A1A;
+}
+
+.skills-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.title {
+    font-size: 510px;
+    font-weight: 800;
+}
+
+.title span {
+    color: rgb(244, 244, 248);
+}
+
+.subtitle {
+    margin-top: 10px;
+    color:rgba(234, 255, 0, 0.762);
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 38px;
+    padding: 0 40px;
+}
+
+.card {
+    background-color: #383232;
+    border-radius: 20px;
+    padding: 25px 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    border-bottom:palevioletred;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.bar {
+    width: 100%;
+    height: 8px;
+    background:white;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.bar div {
+    height: 100%;
+    background: rgb(86, 86, 200);
+    border-radius: 50px;
+}
+nav {
+    width: 1550px;
+    padding: 20px 50px;
+    background: rgba(255, 255, 255, 0.85);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(132, 74, 74);
+}
+
+.links {
+    display: flex;
+    gap: 39px;
+    list-style: none;
+
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(42, 37, 37);
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: rgb(81, 81, 180);
+}
+
+
+.about-section {
+    width: 100%;
+    padding: 60px;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+.about-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.footer {
+    background: black;
+    color: white;
+    padding:20px;
+    margin-top: -50px;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.footer .name {
+    font-size: 26px;
+    color: rgb(215, 146, 157);
+}
+
+.footer .tagline {
+    margin-bottom: 20px;
+    color: rgb(214, 79, 79);
+}
+
+.info {
+    margin: 15px 0;
+    color: pink;
+}
+
+.contactinfo, .connectlinks, .quicklinks {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.contactinfo li,
+.connectlinks li,
+.quicklinks li {
+    margin: 8px 0;
+}
+
+.connectlinks a,
+.quicklinks a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.connectlinks a:hover,
+.quicklinks a:hover {
+    color: rgb(80, 80, 138);
+}
+
+
